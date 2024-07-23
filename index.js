@@ -118,7 +118,7 @@ class NetController {
 /** @type {HTMLCanvasElement} */
 const canvas = document.getElementById("header-canvas");
 const controller = new NetController(canvas);
-attachNets(300);
+attachNets(200);
 controller.start();
 
 function attachNets(count) {
